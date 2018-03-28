@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+    <style>
+    	#main-header{
+    		margin-left: 755px;
+    		margin-top: 31px;
+    		
+    	}
+
+    	#main-header-name{
+    		color: #ff063f;
+    		font-weight: bold;
+    		font-style: italic;
+    		font-size: 80px;
+   		}
+   		aa{
+   			color: white;
+   		}
+   		#page-wrapper{
+   			border: 10px solid #ff063f;
+   			border-radius: 50px; 
+   			background-color: white;
+			width: 800px;
+			height: 450px;
+			padding: 10px 30px 50px 30px;
+			margin-top: -23px;
+			margin-left: auto;
+			margin-right: auto;
+			overflow-y: scroll;
+        	overflow-x: hidden;
+        	
+
+   		}
+   		.nav{
+   			position: absolute;
+   			top: 555px;
+   			left: 300px;
+   		}
+
+   		.nav-link{
+   			color: black;
+   			font-weight: bold;
+
+   		}
+   		.nav-link:hover {
+   			color: white;
+			background-color: #ff063f;;
+   		}
+   		body{
+   			background-image: url(images/straw.jpg);
+   		}
+      	.card{
+      		border: 0;
+      	}
+
+      	.card-img-top{
+	      	width: 64px;
+	      	height: 64px;
+	      	margin-top: 80px;
+	      	margin-bottom: 30px;
+	      	margin-left: auto;
+	      	margin-right: auto;
+	      	display: block;
+	     }
+	    .card-img{
+	      	border-radius: 80px;
+	      	margin-top: 25px;
+	      	margin-bottom: -10px;
+	      	margin-left: auto;
+	      	margin-right: auto;
+	      	width: 160px;
+	      	height: 160px;
+	      }
+	    .card-body{
+	      	text-align: center;
+	      }
+	    .card-title{
+	      	font-style: italic;
+	      	font-weight: bold;
+
+	      }
+	    .card-text {
+	      	font-size: 11px;
+	      }
+    	.content2 {
+    		display: block;
+	    	margin-top: 30px;
+	    	margin-bottom: 100px;
+	    	margin-left: 130px;
+	    }
+	    .skills-img{
+			padding: 20px; 
+				 }
+		.container{
+			margin-top: 50px;
+			margin-bottom: 50px;
+			margin-left:auto; 
+			margin-right:auto;
+		}
+		.grid-img{
+			float: none;
+			height: 180px;
+			margin: 0 auto;
+			padding: 0;
+		}
+		.col{
+			float: none;
+			margin: 0 auto;
+			padding: 0;
+		}
+		.row{
+			padding: 5px;
+		}
+		#bts+.desc-bts{
+			display: none;
+		}
+		#bts:hover{
+			opacity: 0.4;
+		}
+		#bts:hover+.desc-bts{
+			display: block;
+		}
+		#str+.desc-str{
+			display: none;
+		}
+		#str:hover{
+			opacity: 0.4;
+		}
+		#str:hover+.desc-str{
+			display: block;	
+		}
+		#fr+.desc-fr{
+			display: none;
+		}
+		#fr:hover{
+			opacity: 0.4;
+		}
+		#fr:hover+.desc-fr{
+			display: block;
+		}
+		#la+.desc-la{
+			display: none;
+		}
+		#la:hover{
+			opacity: 0.4;
+		}
+		#la:hover+.desc-la{
+			display: block;
+		}
+		#tr+.desc-tr{
+			display: none;
+		}
+		#tr:hover{
+			opacity: 0.4;
+		}
+		#tr:hover+.desc-tr{
+			display: block;
+		}
+		#fr{
+			padding-right: 8px; 
+		}
+
+		#contactme{
+			text-align: center;
+		}
+		h5{
+			color: #ff063f;
+			font-weight: bold;
+			font-style: italic;
+		}
+		#cm{
+			font-size: 12px;
+			font-weight: bold;
+		}
+		k{
+			color: #ff063f;
+			font-style: italic;
+		}
+
+
+
+
+
+
+    </style>
+
+    
+
+	<title>jimin</title>
+</head>
+
+<body>
+	<header id=main-header>
+		<h1 id="main-header-name"><aa>Ji</aa>min</h1>
+	</header>
+	
+
+	<div id="page-wrapper">
+		
+
+		<div class="content">
+			<div class="content1" id="jimin?">
+			<div class="card-deck">
+			  <div class="card">
+			    <img class="card-img img-circle" src="images/me.jpg">
+			    <div class="card-body">
+			      <h5 class="card-title">Kim Jimin</h5>
+			      <h6 class="card-text">1997.05.31</h6>
+			      <p class="card-text">최근에 술마시고 휴대폰을 잃어버려 여기에 등록할 사진조차 없는 상태이다. 정말로 정말로 다시는 잃어버리지 말아야지....히히.....어차피 요즘 과제많아서 술도 못마신다... 멋사조아</p>
+			    </div>
+			  </div>
+			  <div class="card">
+			    <img class="card-img-top" src="images/monitor.png">
+			    <div class="card-body">
+			      <h5 class="card-title">KU Software</h5>
+			      <p class="card-text">2017년도에 입학해서 건국대학교 소프트웨어학과 2학년에 재학중이다. 전과생이라 교양하나 못듣고 6전공에 과제 너무나 많은데 멋사 과제랑 >>po합체wer<<되니까 죽을것같다. 하지만 많은 고민끝에 정한 진로라 (많이)힘들지만 (아직)행복하다</p>
+			    </div>
+			  </div>
+			  <div class="card">
+			    <img class="card-img-top" src="images/home.png">
+			    <div class="card-body">
+			      <h5 class="card-title">Garosu-gil</h5>
+			      <p class="card-text">가로수길 주변에 살고있다. 어디사냐하면 설명하기에 편한 최적의 장소라서 맨날 그렇게 말한다. 맛있는걸 먹으러 걸어갈 수 있어서 좋지만 밤엔 시끄러워서 화날때도 있다.</p>
+			      
+			    </div>
+			  </div>
+			</div>
+			</div>
+			<br>
+			<br>
+			<br>
+			<div class="content2" id="skills">
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<img class="skills-img" src="images/html.png">
+				<img class="skills-img" src="images/css.png">
+				<img class="skills-img" src="images/laptop.png">
+				<img class="skills-img" src="images/ps.png">
+			</div>
+			<br>
+			<br>
+			<br>
+			<div class="container" id="LOVE">
+				<br>
+			  <div class="row">
+			    <div class="col">
+			     <img class="grid-img" id="bts" src="images/bts.jpg">
+			     <span class="desc-bts">I ♥ BTS</span>
+			    </div>
+			    <div class="col">
+			      <img class="grid-img" id="str" src="images/strawberry.jpg">
+			      <span class="desc-str">I ♥ STRAWBERRY</span></div>
+			  </div>
+			  <div class="row">
+			    <div class="col">
+			      <img class="grid-img" id="fr" src="images/friends.jpg">
+			      <span class="desc-fr">I ♥ FRIENDS</span>
+			    </div>
+			    <div class="col">
+			      <img class="grid-img" id="la" src="images/lala.jpg">
+			      <span class="desc-la">I ♥ LALA LAND</span>
+			    </div>
+			    <div class="col">
+			      <img class="grid-img" id="tr" src="images/t.png">
+			      <span class="desc-tr">I ♥ TRAVEL</span>
+			    </div>
+			  </div>
+			</div>
+		<div id="contactme">
+			<br>
+			<br>
+			<br>
+			<br>
+			<h5>Contact Me</h5>
+			<br>
+			<p id="cm">mail : gyh04153@naver.com</p>
+			<p id="cm">instargram <k>@jimin_jimni</k> / facebook</p>
+			<a class="insta" href="https://www.instagram.com/jimin__jimni/"  target="_blank"><img src="images/instagram.png"></a>
+			<a class="facebook" href="https://www.facebook.com/jimin.kim.58152" target="_blank"><img src="images/facebook.png"></a>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+
+		</div>
+	</div>
+	<nav>
+		<ul class="nav">
+		  <li class="nav-item">
+		    <a class="nav-link" href="#jimin?">JIMIN?</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" href="#skills">SKILLS</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" href="#LOVE">LOVE</a>
+		  </li>
+		  <li class="nav-item">
+		    <a class="nav-link" href="#contactme">CONTACT ME</a>
+		  </li>
+		</ul>
+	</nav>
+</body>
+</html>
